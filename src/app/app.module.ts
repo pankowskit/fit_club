@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
 import { ComingsoonModule } from './comingsoon/comingsoon.module';
 import { ErrorModule } from './error/error.module';
+import { FooterComponent } from './footer/footer.component';
+import { GoalsModule } from './goals/goals.module';
+import { HomeModule } from './home/home.module';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PackagesModule } from './packages/packages.module';
 import { PrivacyModule } from './privacy/privacy.module';
 
 @NgModule({
@@ -19,6 +22,9 @@ import { PrivacyModule } from './privacy/privacy.module';
     BrowserModule,
     AppRoutingModule,
     ComingsoonModule,
+    GoalsModule,
+    HomeModule,
+    PackagesModule,
     PrivacyModule,
     ErrorModule
   ],
